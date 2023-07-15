@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsla(0, 100%, 90%, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.class {
+  font-family: 'Style Script', cursive;
+  background-color: #71c4fbde ;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+input[type="text"] {
+  font-size: 2rem;
+  border-radius: 15px;
+  font-family: 'Bacasime Antique', serif;
+  text-align: center;
+}
+
+#addbutton {
+  font-size: 2rem;
+  border-radius: 10px;
+  width: 99px;
+  background-color: aqua;
+  font-family: 'Bacasime Antique', serif;
+  cursor: pointer;
+}
+
+#addbutton:hover{
+  transform: translateY(-2px);
+  transition: 0.5ms all;
+}
+.delete {
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  left: 55%;
+}
+
+li {
+  font-family: 'Bacasime Antique', serif;
+  font-size: 2rem;
+  position: relative;
+  left: 35px;
+}
